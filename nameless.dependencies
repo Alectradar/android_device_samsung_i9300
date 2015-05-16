@@ -1,8 +1,0 @@
-[
-    {
-        "remote": "github",
-        "repository": "NamelessRom/android_device_samsung_smdk4412-common",
-        "target_path": "device/samsung/smdk4412-common",
-        "revision": "n-2.1"
-    }
-]
