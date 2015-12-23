@@ -37,6 +37,9 @@ BOARD_RIL_CLASS := ../../../hardware/samsung/ril
 COMMON_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
 
 
+# Sensors
+BOARD_USES_OPENSOURCE_SENSORS := false
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9300/bluetooth
 
