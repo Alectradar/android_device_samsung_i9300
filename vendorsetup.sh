@@ -14,6 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_i9300-user
-add_lunch_combo aosp_i9300-userdebug
-add_lunch_combo aosp_i9300-eng
+add_lunch_combo flex_i9300-userdebug
+

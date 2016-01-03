@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_i9300.mk \
+    $(LOCAL_DIR)/flex_i9300.mk \
     $(LOCAL_DIR)/full_i9300.mk
