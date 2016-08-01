@@ -35,10 +35,10 @@
  */
 
 struct sensor_t smdk4x12_sensors[] = {
-	{ "LSM330DLC Acceleration Sensor", "STMicroelectronics", 1, SENSOR_TYPE_ACCELEROMETER,
+	{ "LSM330DLC 3-Axis Accelerometer", "STMicroelectronics", 1, SENSOR_TYPE_ACCELEROMETER,
 		SENSOR_TYPE_ACCELEROMETER, 2 * GRAVITY_EARTH, 0.0096f, 0.23f, 10000, 0, 0, 0, 0, 0,
         SENSOR_FLAG_CONTINUOUS_MODE, {0}, },
-	{ "AKM8975 Magnetic Sensor", "Asahi Kasei Microdevices", 1, SENSOR_TYPE_MAGNETIC_FIELD,
+	{ "AKM8975C 3-Axis Magnetic Sensor", "Asahi Kasei Microdevices", 1, SENSOR_TYPE_MAGNETIC_FIELD,
 		SENSOR_TYPE_MAGNETIC_FIELD, 2000.0f, 1.0f / 16, 6.8f, 10000, 0, 0, 0, 0, 0,
         SENSOR_FLAG_CONTINUOUS_MODE, {0}, },
 	{ "CM36651 Light Sensor", "Capella Microsystems", 1, SENSOR_TYPE_LIGHT,
